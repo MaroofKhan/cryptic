@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5C1BCB71FB588F700BCFD02 /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C1BCB61FB588F700BCFD02 /* Rates.swift */; };
+		A5C1BCB91FB5AC8F00BCFD02 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5C1BCB81FB5AC8F00BCFD02 /* MainMenu.xib */; };
+		A5C1BCBB1FB5D2E100BCFD02 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C1BCBA1FB5D2E100BCFD02 /* CurrencyFormatter.swift */; };
 		A5D0907F1FB5850E00ADB8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D0907E1FB5850E00ADB8B0 /* AppDelegate.swift */; };
 		A5D090811FB5850E00ADB8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D090801FB5850E00ADB8B0 /* Assets.xcassets */; };
-		A5D090841FB5850E00ADB8B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5D090821FB5850E00ADB8B0 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5C1BCB61FB588F700BCFD02 /* Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		A5C1BCB81FB5AC8F00BCFD02 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../../../.Trash/MainMenu.xib; sourceTree = "<group>"; };
+		A5C1BCBA1FB5D2E100BCFD02 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		A5D0907B1FB5850E00ADB8B0 /* Cryptic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D0907E1FB5850E00ADB8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D090801FB5850E00ADB8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5D090831FB5850E00ADB8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A5D090851FB5850E00ADB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D090861FB5850E00ADB8B0 /* Cryptic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cryptic.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,8 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				A5D0907E1FB5850E00ADB8B0 /* AppDelegate.swift */,
+				A5C1BCB61FB588F700BCFD02 /* Rates.swift */,
+				A5C1BCBA1FB5D2E100BCFD02 /* CurrencyFormatter.swift */,
 				A5D090801FB5850E00ADB8B0 /* Assets.xcassets */,
-				A5D090821FB5850E00ADB8B0 /* MainMenu.xib */,
+				A5C1BCB81FB5AC8F00BCFD02 /* MainMenu.xib */,
 				A5D090851FB5850E00ADB8B0 /* Info.plist */,
 				A5D090861FB5850E00ADB8B0 /* Cryptic.entitlements */,
 			);
@@ -120,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D090811FB5850E00ADB8B0 /* Assets.xcassets in Resources */,
-				A5D090841FB5850E00ADB8B0 /* MainMenu.xib in Resources */,
+				A5C1BCB91FB5AC8F00BCFD02 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,21 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D0907F1FB5850E00ADB8B0 /* AppDelegate.swift in Sources */,
+				A5C1BCBB1FB5D2E100BCFD02 /* CurrencyFormatter.swift in Sources */,
+				A5C1BCB71FB588F700BCFD02 /* Rates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A5D090821FB5850E00ADB8B0 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5D090831FB5850E00ADB8B0 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A5D090871FB5850E00ADB8B0 /* Debug */ = {
